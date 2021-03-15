@@ -1,5 +1,5 @@
 const mongoose = require('mongoose');
-MONGO_URI = "mongodb+srv://memorieApp:Ramtoppo123@cluster0.cl84n.mongodb.net/ramdb?retryWrites=true&w=majority";
+MONGO_URI = process.env.MONGO_URI;
 
 const connectDB = async () =>{
     try {
