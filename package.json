@@ -4,8 +4,9 @@
   "description": "Backend for expense tracker",
   "main": "server.js",
   "scripts": {
-    "start": "node server.js"
-   
+    "start": "node server",
+    "server": "nodemon server"
+    
   },
   "author": "Ram kumar toppo",
   "license": "ISC",
